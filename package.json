@@ -10,6 +10,6 @@
     "clean": "git clean -xfd -e .vscode -e .env*"
   },
   "devDependencies": {
-    "typescript": "^5.6.2"
+    "typescript": "^5.9.0"
   }
 }
