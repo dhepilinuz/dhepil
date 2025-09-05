@@ -1,9 +1,0 @@
-[build]
-  command = "corepack enable && pnpm i && pnpm -w build"
-  publish = "apps/web/dist"
-  # base tetap root repo. Netlify akan jalankan perintah di atas dari root.
-
-[build.environment]
-  NODE_VERSION = "20"
-  NPM_FLAGS = "--version"
-  NETLIFY_USE_YARN = "false"
