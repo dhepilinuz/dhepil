@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "build": { "dependsOn": ["^build"], "outputs": ["dist/**","build/**"] },
+    "build": { "dependsOn": ["^build"], "outputs": ["dist/**", "build/**"] },
     "typecheck": { "dependsOn": ["^typecheck"] },
     "lint": { "dependsOn": ["^lint"] },
     "dev": { "cache": false }

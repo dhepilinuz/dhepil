@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
     "composite": true,
-    "moduleResolution": "Bundler",
     "target": "ES2022",
+    "moduleResolution": "Bundler",
     "jsx": "react-jsx",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "baseUrl": "."
   }
 }
