@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     port: 3000,
     strictPort: true
-    // kalau nanti butuh backend:
+    // butuh backend nanti:
     // proxy: { "/api": { target: "http://localhost:8000", changeOrigin: true, rewrite: p => p.replace(/^\/api/, "") } }
   },
   optimizeDeps: {
@@ -14,8 +14,8 @@ export default defineConfig({
   },
   build: {
     target: "es2022",
-    sourcemap: false,
     cssCodeSplit: true,
+    sourcemap: false,
     chunkSizeWarningLimit: 1000,
     rollupOptions: {
       output: {
